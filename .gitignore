@@ -20,3 +20,5 @@ nbactions.xml
 hs_err_pid*
 /Using-Log4J-SL4J/nbproject/private/
 /Using-Log4J-SL4J/build/
+
+*.log

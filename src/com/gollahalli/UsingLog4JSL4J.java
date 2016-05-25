@@ -7,6 +7,7 @@ package com.gollahalli;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -40,6 +41,20 @@ public class UsingLog4JSL4J {
      */
     public static void main(String[] args) {
         logger.error("This is an error");
+        logger.info("this is info log");
+        logger.debug("A debug messaage, works only in debug mode");
+        logger.fatal("fatal message");
+        System.out.println("class name" + logger.getName());
+        logger.warn("warning");
+        logger.log(Level.INFO, "Another way to log Info errors");
+        
+        try {
+            int a=10;
+            int b=0;
+            System.out.println(a/b);
+        } catch (Exception e) {
+            logger.catching(e);
+        }
         
         }
     
