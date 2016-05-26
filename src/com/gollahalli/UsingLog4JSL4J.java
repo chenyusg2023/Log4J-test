@@ -2,8 +2,6 @@ package com.gollahalli;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
-//import org.apache.logging.log4j.Level;
-//import org.apache.logging.log4j.Level;
 //import org.apache.logging.log4j.Logger;
 //import org.apache.logging.log4j.LogManager;
 import org.slf4j.Logger;
