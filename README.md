@@ -10,13 +10,22 @@ Introduction on using Log4J and SL4J in Java 8
 
 ## 1 What is logging?
 
-In general Logging refers to recording of activity. Logging can be divided into three levels:
+In general Logging refers to recording of activity. In Java, logging can be divided into three levels:
 
 ```
             Logging
                |
-  ----------------------------
+  .------------+-------------.
   |            |             |
 Logger      Formatter      Handler
                           (Appender)
 ```
+
+**Logger**
+
+Loggers is an object, which is called when you want to log a message. Logger has two main objects in it:
+
+* Name
+* Logging levels
+
+*Name*:
