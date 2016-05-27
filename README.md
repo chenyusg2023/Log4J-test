@@ -32,7 +32,7 @@ Download the following libraries, unzip it and include the following jar files i
 
 ## 2 What is logging?
 
-In general Logging refers to recording of activity. In Java, logging can be divided into three levels:
+In general, Logging refers to the recording of activity. In Java, logging can be divided into three levels:
 
 ```
             Logging
@@ -45,7 +45,7 @@ Logger      Formatter      Handler
 
 ### 3.1 Logger
 
-Loggers is an object, which is called when you want to log a message. Logger has two main objects in it:
+Logger is an object, which is called when you want to log a message. Logger has two main objects in it:
 
 * Name
 * Logging levels
@@ -62,7 +62,7 @@ logger.getName();
 
 They are the logging events that can be called while running a program.
 
-Log4J and SLF4J provides the following levels of events:
+Log4J and SLF4J provide the following levels of events:
 
 |   Log4J  | SLF4J |
 |:--------:|:-----:|
@@ -88,7 +88,7 @@ See the highlighted lines in [log4j-configFile.xml#L3-L18](https://github.com/ak
 
 They are used to write the log events to a given file or a destination (system out).
 
-Log4J supports different types of appenders (see [Appenders](https://logging.apache.org/log4j/2.x/manual/appenders.html)), but in this tutorial we will see two most commonly used appenders
+Log4J supports different types of appenders (see [Appenders](https://logging.apache.org/log4j/2.x/manual/appenders.html)), but in this tutorial, we will see two most commonly used appenders
 
 * Async
 * Console
@@ -98,7 +98,7 @@ Log4J supports different types of appenders (see [Appenders](https://logging.apa
 
 See the highlighted lines in  [log4j-configFile.xml#L15-L17](https://github.com/akshaybabloo/Using-Log4J-SLF4J/blob/master/src/com/gollahalli/log4j-configFile.xml#L15-L17)
 
-If you are trying to reference other appenders, for example `File` appender, Async can be used. The important aspect of `Async` appender is that, whenever a log event is generated it is always written on a different thread.
+If you are trying to reference other appenders, for example, `File` appender, Async can be used. The important aspect of `Async` appender is that, whenever a log event is generated it is always written on a different thread.
 
 **Console Appender**
 
@@ -129,15 +129,15 @@ Apache can do everything java.util.logging can but more. Log4J can be used to lo
 
 ## 5 What is SLF4J?
 
-Simple Logging Facade for Java (SLF4J) acts like an abstract layer for different types of logging libraries. This include Log4J.
+Simple Logging Facade for Java (SLF4J) acts as an abstract layer for different types of logging libraries; this includes Log4J.
 
 ### 5.1 Why use SLF4J when Log4J has more API's to use?
 
-Thats correct, but what if you don't want to use Log4J? and the person yoy give it to has Logback with them. That's SLF4J comes in handy. For more information see [SLF4J](http://www.slf4j.org/).
+That's correct, but what if you don't want to use Log4J? And the person you give it to has Logback with them. That's SLF4J comes in handy. For more information see [SLF4J](http://www.slf4j.org/).
 
 ## 6 All about `log4j-configFile.xml`
 
-There are two ways to configure Log4J. One by using `XML` and the other is to use `JSON`. For the purpose of this tutorial we will stick to `XML`.
+There are two ways to configure Log4J. One by using `XML` and the other is to use `JSON`. For the purpose of this tutorial, we will stick to `XML`.
 
 **Overview of Configuration File**
 
