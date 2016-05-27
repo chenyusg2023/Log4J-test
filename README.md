@@ -1,5 +1,5 @@
 # Using Log4J with SLF4J
-Introduction on using Log4J and SLF4J in Java 8
+Introduction on using Log4J with SLF4J in Java 8
 
 **Table of Contents**
 
