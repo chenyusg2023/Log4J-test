@@ -8,7 +8,7 @@ import org.apache.logging.log4j.LogManager;
 public class UsingLog4J {
 
     // Initialising the logger class.
-    private static final Logger LOGGER = LogManager.getLogger(UsingLog4JSLF4J.class);
+    private static final Logger LOGGER = LogManager.getLogger(UsingLog4J.class);
 
     public static void main(String[] args) {
         LOGGER.error("This is an error");
