@@ -22,3 +22,5 @@ hs_err_pid*
 /Using-Log4J-SL4J/build/
 
 *.log
+
+\.idea/
