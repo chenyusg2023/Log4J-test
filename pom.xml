@@ -8,7 +8,7 @@
     <artifactId>using-log4j-slf4j</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Azure File Explorer</name>
+    <name>Using Log4J SLF4J </name>
     <description>Using Log4J with SLF4J</description>
     <url>https://github.com/akshaybabloo/Using-Log4J-SLF4J</url>
 
