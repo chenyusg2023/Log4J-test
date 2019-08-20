@@ -15,7 +15,7 @@
 
         <!-- For writing logs to a JSON file-->
         <File name="LogFile" fileName="app.json">
-            <JsonLayout complete="true" properties="true"/>
+            <JsonLayout complete="true" properties="true" locationInfo="true"/>
         </File>
 
         <!-- For File writing on Different Thread-->
